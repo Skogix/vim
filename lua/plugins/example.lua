@@ -72,6 +72,7 @@ return {
     },
   },
 
+  --require'lspconfig'.ocamllsp.setup{}
   -- add pyright to lspconfig
   {
     "neovim/nvim-lspconfig",
