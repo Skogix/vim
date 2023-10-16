@@ -3,11 +3,11 @@
 -- Add any additional autocmds here
 
 -- autocmd BufEnter,CursorHold,InsertLeave *.rs silent! lua vim.lsp.codelens.refresh()
-local codelens = vim.api.nvim_create_augroup("codelens", { clear = true })
-vim.api.nvim_create_autocmd(
-  { "BufEnter", "CursorHold", "InsertLeave" },
-  { pattern = "*.rs", command = "<cmd>lua vim.lsp.codelens.refresh()<cr>", group = codelens }
-)
+-- local codelens = vim.api.nvim_create_augroup("codelens", { clear = true })
+-- vim.api.nvim_create_autocmd(
+--   { "BufEnter", "CursorHold", "InsertLeave" },
+--   { pattern = "*.rs", command = "<cmd>lua vim.lsp.codelens.refresh()<cr>", group = codelens }
+-- )
 
 -- default autocmds:
 -- This file is automatically loaded by lazyvim.config.init.

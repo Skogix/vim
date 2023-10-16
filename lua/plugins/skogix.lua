@@ -5,6 +5,12 @@ return {
   { import = "lazyvim.plugins.extras.util.project" },
   { import = "lazyvim.plugins.extras.lang.omnisharp" },
   { import = "lazyvim.plugins.extras.dap.core" },
+  {
+    "ray-x/navigator.lua",
+  },
+  {
+    "ray-x/guihua.lua",
+  },
   -- {
   --   "neovim/nvim-lspconfig",
   --   ---@class PluginLspOpts
